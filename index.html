@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Fernando Castro</title>
+    <meta name="description" content="portafolio" />
+    <meta name="author" content="Fernando" />
+    <meta name="keywords" content="portafolio, desarrollador principiante, sin experiencia" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <!-- CUSTOMS CSS -->
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/animations.css">
+    <link rel="stylesheet" href="/medias.css">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-menu">
+            <a href="#tecnologies" class="nav-item">
+                <p>TECNOLOGIAS</p>
+            </a>
+            <a href="#proyects" class="nav-item">
+                <p>PROYECTOS</p>
+            </a>
+        </div>
+        <div class="nav-menu-right">
+            <a href="resume.docx" download="CV Fernando Castro" class="nav-item right">CV</a>
+            <a href="https://github.com/F3RN1OP" target="_blank" class="nav-item right">
+                <img src="img/github-icon-white.svg" alt="logo" class="logo-navbar">
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <header>
+                <h3>Hola, me llamo</h3>
+                <h1>Fernando Castro.</h1>
+                <h4>Un desarrollador web.</h4>
+                <a href="mailto:fc93435@gmial.com" class="btn-email">Contactame</a>
+            </header>
+            <div class="content">
+                <div class="description">
+                    <p>Soy un desarrollador fullstack principiante. Centrado en el desarrollo de sitios web y
+                        aplicaciones web.</p>
+                </div>
+                <div class="container-cards" id="tecnologies">
+                    <div class="card frontend-card" id="f-card">
+                        <h3 class="title-card">Tecnologias frontend utilizadas hasta ahora:</h3>
+                        <div class="icons" id="icons-f">
+                            <div class="icon">
+                                <img src="img/html-5-logo.svg" alt="logo">
+                                <p>MEDIO</p>
+                            </div>
+                            <div class="icon">
+                                <img src="img/JS-logo.svg" alt="logo">
+                                <p>MEDIO</p>
+                            </div>
+                            <div class="icon">
+                                <img src="img/css-3-logo.svg" alt="logo">
+                                <p>BASICO</p>
+                            </div>
+                            <div class="icon">
+                                <img src="img/handlebars-logo.svg" alt="logo">
+                                <p>MEDIO</p>
+                            </div>
+                            <div class="icon">
+                                <img src="img/webpack-logo.svg" alt="logo">
+                                <p>BASICO</p>
+                            </div>
+                            <div class="icon">
+                                <img src="img/reactjs-logo.svg" alt="logo">
+                                <p>BASICO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card backend-card" id="b-card">
+                        <h3 class="title-card">Tecnologias backend ultilizadas hasta ahora:</h3>
+                        <div class="icons" id="icons-b">
+                            <div class="icon">
+                                <img src="img/nodejs-logo.svg" alt="logo">
+                                <p>BASICO</p>
+                            </div>
+                            <div class="icon">
+                                <img src="img/express-logo.svg" alt="logo">
+                                <p>BASICO</p>
+                            </div>
+                            <div class="icon">
+                                <img src="img/mongodb-logo.svg" alt="logo">
+                                <p>BASICO</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="proyects">
+                    <h2>Proyectos</h2>
+                    <div class="content-proyects" id="proyects">
+                        <a href="https://github.com/F3RN1OP/IDs-app-opentags" class="card-proyect" target="_blank">
+                                <img src="img/Captura de pantalla (73).png" alt="screenshot">
+                                <h4>Simple CRUD</h4>
+                                <p>CRUD simple con NodeJS, mongoDB y handlebars</p>
+                        </a>
+                        <a href="https://github.com/F3RN1OP/notes-app" class="card-proyect" target="_blank">
+                                <img src="img/Captura de pantalla (76).png" alt="screenshot">
+                                <h4>Notes App</h4>
+                                <p>CRUD simple con NodeJS, mongoDB, handlebars y sistema de login</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>

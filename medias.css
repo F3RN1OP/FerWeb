@@ -1,0 +1,21 @@
+@media (max-width: 1200px) {
+  .icons {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 950px) {
+  .container-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .frontend-card {
+    width: auto;
+    border: none;
+    border-bottom: 1px solid rgb(95, 94, 94);
+  }
+  .backend-card {
+    width: auto;
+    border: none;
+    border-top: 1px solid rgb(95, 94, 94);
+  }
+}
