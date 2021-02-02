@@ -2,10 +2,10 @@
   "name": "portafolio",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://f3rn1op.github.io/FerWeb",
+  "homepage": "https://fernando-castro.xyz",
   "main": "main.js",
   "scripts": {
-    "predeploy": "echo 'fernando-castro.xyz' > ./dist/CNAME",
+    "predeploy": "echo fernando-castro.xyz > ./dist/CNAME",
     "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
