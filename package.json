@@ -5,11 +5,14 @@
   "homepage": "https://f3rn1op.github.io/FerWeb",
   "main": "main.js",
   "scripts": {
+    "predeploy": "echo 'fernando-castro.xyz' > ./dist/CNAME",
     "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
 }
