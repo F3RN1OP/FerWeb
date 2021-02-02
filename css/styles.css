@@ -103,17 +103,20 @@ header h3 {
   padding: 1.5rem;
   color: rgb(97, 46, 93);
   transform: translateY(25px);
+  opacity: 0;
   animation: opacity-translate-top .5s ease forwards;
 }
 header h1 {
   padding: .2rem 0;
   transform: translateY(25px);
+  opacity: 0;
   animation: opacity-translate-top 1s ease-in-out forwards;
 }
 header h4 {
   padding: 1.5rem;
   color: rgb(97, 46, 93);
   transform: translateY(25px);
+  opacity: 0;
   animation: opacity-translate-top .8s ease forwards;
 }
 .btn-email {
@@ -131,6 +134,7 @@ header h4 {
   font-weight: 100;
   padding: 2rem;
   background: rgba(97, 46, 93, 0.3);
+  opacity: 0;
   animation: opacity 2s ease-in-out forwards;
 }
 .content {
@@ -149,10 +153,12 @@ header h4 {
 .frontend-card {
   width: 50%;
   transform: translateY(25px);
+  opacity: 0;
 }
 .backend-card {
   width: 50%;
   transform: translateY(25px);
+  opacity: 0;
 }
 .title-card {
   font-weight: bolder;
@@ -202,6 +208,7 @@ header h4 {
 .content-proyects {
   display: flex;
   padding: 2rem 0;
+  opacity: 0;
   transform: translateY(25px);
 }
 .card-proyect {
