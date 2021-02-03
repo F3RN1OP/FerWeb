@@ -30,7 +30,7 @@ body {
 /* NAVBAR */
 .navbar {
   background: var(--bg-dark-secundary);
-  height: 4rem;
+  height: 8rem;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -39,7 +39,7 @@ body {
   justify-content: space-between;
   color: #fff;
   text-decoration: none;
-  font-weight: 100;
+  font-size: 20px;
 }
 .nav-menu {
   display: flex;
@@ -50,10 +50,9 @@ body {
   align-items: center;
   justify-content: center;
   height: 100%;
-  width: 150px;
+  width: 210px;
   color: #fff;
   text-decoration: none;
-  font-weight: 100;
 }
 .nav-item:hover {
   animation: nav-item .4s forwards;
@@ -81,11 +80,11 @@ main {
 }
 .container {
   min-height: 800px;
-  margin: 4rem 4rem;
+  margin: 8rem 4rem;
   background: var(--bg-dark-primary-gradient);
   z-index: 2;
   backdrop-filter: blur(1rem);
-  padding: 0rem 2rem 2rem 2rem;
+  padding: 1rem 1rem 2rem 1rem;
 }
 .container-footer {
   min-height: 6rem;
@@ -97,7 +96,6 @@ header {
   padding: .5rem;
   margin: 1rem;
   font-size: 50px;
-  font-weight: 100;
 }
 header h3 {
   padding: 1.5rem;
@@ -125,13 +123,13 @@ header h4 {
   padding: 1rem;
   border: 1px solid;
   margin: 2rem;
+  color: #fff;
 }
 .btn-email:hover {
   animation: btn-email 1s linear forwards;
 }
 .description {
   font-size: 35px;
-  font-weight: 100;
   padding: 2rem;
   background: rgba(97, 46, 93, 0.3);
   opacity: 0;
@@ -161,8 +159,8 @@ header h4 {
   opacity: 0;
 }
 .title-card {
-  font-weight: bolder;
   padding-bottom: 3rem;
+  font-size: 25px;
 }
 
 /* ICONS */
@@ -172,15 +170,15 @@ header h4 {
   transform: translateY(25px);
 }
 .icon {
-  padding: 1rem;
+  padding: .5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
 .icon img {
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
 }
 .icon p {
   padding: 0.5rem;
@@ -196,14 +194,17 @@ header h4 {
 }
 .proyects h2 {
   padding: 0 2rem;
+  font-size: 35px;
 }
 .card-proyect h4 {
   padding: 1rem 2rem;
   color: #fff;
+  font-size: 30px;
 }
 .card-proyect p {
   color: #fff;
-  padding: 1rem;
+  padding: 2rem;
+  font-size: 25px;
 }
 .content-proyects {
   display: flex;
